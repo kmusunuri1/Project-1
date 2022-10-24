@@ -16,4 +16,10 @@ How does vaccine accessibility impact the volume of COVID cases?
 
 How does a population’s region influence COVID cases?
 
-![istockphoto-1225463542-170667a](https://user-images.githubusercontent.com/110564772/197648549-786f9a2c-ddb4-40f1-9b2f-f0f7082db426.jpg)
+![covid-19_coronavirus_network_of_vectors_by_da-kuk_gettyimages-1213355637_2400x1600-100837132-large](https://user-images.githubusercontent.com/110564772/197648602-cee38ce3-8e97-4d2d-bf81-42914689c525.jpg)
+
+
+
+
+Collaborators: Adesuwa Ogiamen, Krishna Musunuri, Kokila Janarthanan, Nasra Ahmed, & Kyndall Butler
+
