@@ -42,6 +42,37 @@ Stay at Home Orders Codebook:
 Blank - no data 
 
 
+# VAX_RATES.CSV (Merged Table for Analysis)
+## Schema
+## Name / Type / Description / Example
+
+Date /  datetime64 / Each Day from March 2020-March 2021 representing either a date the CDC tracked cases or death or a date that google tracked vaccination rates / YYYY-MM-DD 
+
+State / string / identifier for either New York or Texas / NY
+
+Total Cases / int64 / cumulative total of reported cases / 12
+
+Confirmed New C19 Case / int64 / number of new covid cases reported that day/ 12
+
+Total Death / int64 / cumulative total of reported deaths / 12
+
+Confirmed New C19 Death / int64 / number of new covid deahs reported that day / 12
+
+New Persons Vaccinated* / float64 / Count of new persons which have received one or more doses / 5988
+
+Cumulative Persons Vaccinated** / float64 / Cumulative sum of persons which have received one or more doses / 356834
+
+New Persons Fully Vaccinated* / float64 / Count of new persons which have received all doses required for maximum immunity / 1546
+
+Cumulative Persons Fully Vaccinated** / float64 / Cumulative sum of persons which have received all doses required for maximum immunity / 164834
+
+New Vaccines Doses Admined* / float64 / Count of new vaccine doses administered to persons / 9542
+
+Cumulative Vaccines Doses Admined** / float64 / Cumulative sum of vaccine doses administered to person / 923449
+
+* Values can be negative, typically indicating a correction or an adjustment in the way they were measured.
+
+** Cumulative count will not always amount to the sum of daily counts, because many authorities make changes to criteria for counting cases, but not always make adjustments to the data. There is also potential missing data. All of that makes the cumulative counts drift away from the sum of all daily counts over time, which is why the cumulative values, if reported, are kept in a separate column.
 
 Collaborators: Adesuwa Ogiamen, Krishna Musunuri, Kokila Janarthanan, Nasra Ahmed, & Kyndall Butler
 
