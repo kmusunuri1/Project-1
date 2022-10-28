@@ -74,5 +74,25 @@ Cumulative Vaccines Doses Admined** / float64 / Cumulative sum of vaccine doses 
 
 ** Cumulative count will not always amount to the sum of daily counts, because many authorities make changes to criteria for counting cases, but not always make adjustments to the data. There is also potential missing data. All of that makes the cumulative counts drift away from the sum of all daily counts over time, which is why the cumulative values, if reported, are kept in a separate column.
 
+
+# VAX_SITES_ACCESS.CSV (Merged Table for Analysis)
+## Schema
+## Name / Type / Description / Example
+Site Name / string / name of vaccination site / Walgreens
+Site Latitude / float64 / latitude of vaccination site / 42.9146
+Site Longitude / float64 / longitude of vaccition site /
+State / string / identifier for either New York or Texas 
+County / string / name of county / Ellis County
+Mode of Transport / string / method of transportation / transit
+Max Travel Time / int64 / maximum travel time to arrive at site. measured in minutes / 15
+Census Pop. 2020 / int64 / estimated population of county in 2020 per census / 19797
+
+
+
+
+
+
+
+
 Collaborators: Adesuwa Ogiamen, Krishna Musunuri, Kokila Janarthanan, Nasra Ahmed, & Kyndall Butler
 
