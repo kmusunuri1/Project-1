@@ -78,18 +78,51 @@ Cumulative Vaccines Doses Admined** / float64 / Cumulative sum of vaccine doses 
 # VAX_SITES_ACCESS.CSV (Merged Table for Analysis)
 ## Schema
 ## Name / Type / Description / Example
+
 Site Name / string / name of vaccination site / Walgreens
+
 Site Latitude / float64 / latitude of vaccination site / 42.9146
-Site Longitude / float64 / longitude of vaccition site /
-State / string / identifier for either New York or Texas 
+
+Site Longitude / float64 / longitude of vaccition site / 84.3880
+
+State / string / identifier for either New York or Texas / NY
+
 County / string / name of county / Ellis County
+
 Mode of Transport / string / method of transportation / transit
+
 Max Travel Time / int64 / maximum travel time to arrive at site. measured in minutes / 15
+
 Census Pop. 2020 / int64 / estimated population of county in 2020 per census / 19797
 
 
+# COVID-DEMOGRAPHICS.CSV (Merged Table for Analysis)
+## Schema
+## Name / Type / Description / Example
 
+CBSA / int64 / Number assigned to US Office of Mgmt and Budget Core-Based Statistical Area / 10580
 
+CBSA Name / string / Name assigned to US Office of Mgmt and Budget Core-Based Statistical Area / McAllen-Edinburg-Mission, TX
+
+State / string / US State Name / New York
+
+% of 25+ Adults Who Completed College 2016-2020 / Float / 26.309091    
+
+Median Age / float / Median age of CBSA / 35.5
+
+2018 Per Capita Personal Income / float / 57,743
+
+2019 Per Capita Personal Income / float / 49,008
+
+2020 Per Capita Personal Income / float / 31,153
+
+Population / int64 / 238691
+
+Total Cases through Oct 2022 / float / 68907.0
+
+Total Deaths through Oct 2022 / float / 652.0
+
+Total Full Vax through Oct 2022 / float / 4544059.0
 
 
 
